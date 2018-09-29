@@ -1,5 +1,5 @@
 # SpaceGame
-### A game similar to Space Invaders made in 48 hours.
+### A game similar to Space Invaders made in 24 hours.
 Initially I had to implement a game with [pygame](https://www.pygame.org/news) as a school assignment,
 but it turned out to be a fun little project, so I put more effort in it than planned.
 This however doesn't mean the code is good (it's actually pretty ugly and hacky), as I still wanted to finish it in a reasonable amount
