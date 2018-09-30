@@ -11,7 +11,7 @@ reach your home and attack it. If either your lives or the lives of your base fa
 
 All the sprites were drawn by me using [Pixilart](https://www.pixilart.com/). I discovered this site while looking for an easy-to-use
 online-editor for pixelart, and I am impressed by how good of a tool it is (especially because it's for free).
-The font for the score was downloaded [here](https://fontmeme.com/fonts/monobit-font/), so credit to where credit is due.
+The font for the score was downloaded [here](https://fontmeme.com/fonts/monobit-font/), so credit where credit is due.
 
 
 
