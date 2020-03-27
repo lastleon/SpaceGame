@@ -79,7 +79,7 @@ class Ship(pygame.sprite.Sprite):
         
         self.lives -= damage
 
-        if self.lives == 0:
+        if self.lives <= 0:
             pygame.event.post(gameover_event)
 
     def heal(self, heal=1):
@@ -97,7 +97,7 @@ class Ship(pygame.sprite.Sprite):
         
         self.base_lives -= damage
 
-        if self.base_lives == 0:
+        if self.base_lives <= 0:
             pygame.event.post(gameover_event)
 
     def heal_base(self, heal=1):
@@ -669,6 +669,7 @@ def start_game():
         screen.blit(text, (SCREEN_X-(font.size(str(score))[0]+10), 0))
 
         pygame.display.flip()
+        print(ship.lives)
 
 def reset():
     global score, highscore
